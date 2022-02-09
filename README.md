@@ -7,7 +7,7 @@ Create virtual environment and install python libraries
 ------------------------------------------------------------------------
 / Установка и активация виртуального окружения /
 
-pip install virtualenv
+pip3 install virtualenv
 
 On Linux:
 ```
@@ -25,12 +25,12 @@ venv/scripts/activate
 / Установка пакетов библиотек /
 (файл requirements.txt в текущей директории):
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 устанавливаемые пакеты:
 ```
 django
-psycopg2
+psycopg2 (psycopg2-binary)
 djangorestframework)
 pytest
 ... и сопутствующие
