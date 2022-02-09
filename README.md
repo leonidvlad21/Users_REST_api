@@ -46,6 +46,13 @@ django-admin startproject restproj
 
 django-admin startapp restapi
 ```
+DataBase parameters:
+        'ENGINE': 'postgresql',
+        'NAME': 'db_users',
+        'USER': 'postgres',
+        'PASSWORD': 'jan22',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
 
 (переход в директорию проекта restproj, миграция базы данных):
 ```
